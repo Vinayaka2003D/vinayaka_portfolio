@@ -2,11 +2,11 @@ import { projects } from "../data/portfolioData";
 
 const projectIcons = ["🎪", "📊", "📚", "🚗", "🧮", "🕐", "⛩️", "🤖"];
 
-const categoryColor: Record<string, string> = {
-  "NDA Protected": "#e8f3f9",
-  "Personal Project": "#f0fdf4",
-  "Academic Project": "#fdf4ff",
-};
+// const categoryColor: Record<string, string> = {
+//   "NDA Protected": "#e8f3f9",
+//   "Personal Project": "#f0fdf4",
+//   "Academic Project": "#fdf4ff",
+// };
 
 export default function Projects() {
   const ndaProjects = projects.filter(p => p.note?.includes("NDA"));
@@ -82,7 +82,7 @@ export default function Projects() {
       </div>
 
       <div className="proj-academic-row">
-        {academicProjects.map((p, i) => (
+        {academicProjects.map((p) => (
           <div key={p.id} className="proj-academic-card">
             <div className="proj-academic-left">
               <div className="proj-icon-lg">🤖</div>
