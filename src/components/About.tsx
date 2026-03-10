@@ -35,7 +35,7 @@ export default function About() {
               className="btn-primary"
               style={{ marginTop: "8px" }}
             >
-              📄 Download CV
+              📄 View Resume
             </a>
           </div>
 

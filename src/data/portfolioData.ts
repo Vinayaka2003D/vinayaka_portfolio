@@ -145,7 +145,8 @@ export const contactInfo: ContactInfo = {
   website: "https://vinayakad.in",
 };
 export const assets = {
-  photo: "/photo3.jpg",
-  resume: "https://drive.google.com/uc?export=download&id=1I4-BbDjuL5ORxSQ9KjiNgS6cS91P_2gi",
+  photo: "/photo.jpeg",
+  // resume: "https://drive.google.com/uc?export=download&id=1fZO8AkrLqiIOFmh5htjDA3tO0b05LTaz",
+resume: "https://drive.google.com/file/d/1fZO8AkrLqiIOFmh5htjDA3tO0b05LTaz/view",
   website: "vinayakad.in",
 };

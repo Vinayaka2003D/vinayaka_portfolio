@@ -18,7 +18,7 @@ export default function Navbar() {
       {open && (
         <div className="navbar-mobile-menu">
           {links.map(l => <a key={l} href={`#${l.toLowerCase()}`} onClick={() => setOpen(false)}>{l}</a>)}
-          <a href="#contact" onClick={() => setOpen(false)} style={{ fontWeight: 700 }}>Hire Me</a>
+          <a href="https://linkedin.com/in/vinayaka-d" onClick={() => setOpen(false)} style={{ fontWeight: 700 }}>LinkedIn</a>
         </div>
       )}
     </nav>
